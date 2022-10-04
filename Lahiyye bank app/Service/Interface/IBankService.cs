@@ -5,12 +5,12 @@ using System.Text;
 
 namespace Lahiyye_bank_app_.Service.Interface
 {
-    public interface IBankService<T>where T:BaseEntity
+    public interface IBankService<T> where T : BaseEntity
     {
-        void Creat(T entity);
-        void Delete(string name);
-        void Update(string text, decimal money, string info);
-        void Get(string entity);
+        void Create(T entity);
+        void Delete(T branch);
+        void Update();
+        void Get();
         void GetAll();
     }
 }

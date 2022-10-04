@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Lahiyye_bank_app_.Models
 {
-    internal class BaseEntity
+    public class BaseEntity
     {
+        public string Name { get; set; }
+        public bool SoftDelete { get; set; }
     }
 }

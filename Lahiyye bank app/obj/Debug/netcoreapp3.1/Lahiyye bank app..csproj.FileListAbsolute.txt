@@ -1,0 +1,14 @@
+D:\visual s\Lahiyye bank app\Lahiyye bank app\obj\Debug\netcoreapp3.1\Lahiyye bank app..csproj.AssemblyReference.cache
+D:\visual s\Lahiyye bank app\Lahiyye bank app\obj\Debug\netcoreapp3.1\Lahiyye bank app..GeneratedMSBuildEditorConfig.editorconfig
+D:\visual s\Lahiyye bank app\Lahiyye bank app\obj\Debug\netcoreapp3.1\Lahiyye bank app..AssemblyInfoInputs.cache
+D:\visual s\Lahiyye bank app\Lahiyye bank app\obj\Debug\netcoreapp3.1\Lahiyye bank app..AssemblyInfo.cs
+D:\visual s\Lahiyye bank app\Lahiyye bank app\obj\Debug\netcoreapp3.1\Lahiyye bank app..csproj.CoreCompileInputs.cache
+D:\visual s\Lahiyye bank app\Lahiyye bank app\bin\Debug\netcoreapp3.1\Lahiyye bank app..exe
+D:\visual s\Lahiyye bank app\Lahiyye bank app\bin\Debug\netcoreapp3.1\Lahiyye bank app..deps.json
+D:\visual s\Lahiyye bank app\Lahiyye bank app\bin\Debug\netcoreapp3.1\Lahiyye bank app..runtimeconfig.json
+D:\visual s\Lahiyye bank app\Lahiyye bank app\bin\Debug\netcoreapp3.1\Lahiyye bank app..runtimeconfig.dev.json
+D:\visual s\Lahiyye bank app\Lahiyye bank app\bin\Debug\netcoreapp3.1\Lahiyye bank app..dll
+D:\visual s\Lahiyye bank app\Lahiyye bank app\bin\Debug\netcoreapp3.1\Lahiyye bank app..pdb
+D:\visual s\Lahiyye bank app\Lahiyye bank app\obj\Debug\netcoreapp3.1\Lahiyye bank app..dll
+D:\visual s\Lahiyye bank app\Lahiyye bank app\obj\Debug\netcoreapp3.1\Lahiyye bank app..pdb
+D:\visual s\Lahiyye bank app\Lahiyye bank app\obj\Debug\netcoreapp3.1\Lahiyye bank app..genruntimeconfig.cache

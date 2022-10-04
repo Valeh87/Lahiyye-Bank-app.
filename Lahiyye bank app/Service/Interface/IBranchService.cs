@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Lahiyye_bank_app_.Service.Interface
 {
-    public interface IBranchService:IBankService<Branch>
+    public interface IBranchService : IBankService<Branch>
     {
-        void HireEmployee();
+        void HireEmployee(Branch branch);
         void GetProfit(Branch entity);
         void TransferMoney();
-        void TransferEmployee();
+        void TransferEmployee(Branch branch);
     }
 }

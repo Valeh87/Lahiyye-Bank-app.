@@ -4,7 +4,12 @@ using System.Text;
 
 namespace Lahiyye_bank_app_.DataBase
 {
-    internal class Bank_G
+    public class Bank_G<T>
     {
+        public List<T> Datas = new List<T>();
+        public Bank_G()
+        {
+            Datas = new List<T>();
+        }
     }
 }

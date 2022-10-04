@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Lahiyye bank app./1.0.0": {
+        "runtime": {
+          "Lahiyye bank app..dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lahiyye bank app./1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

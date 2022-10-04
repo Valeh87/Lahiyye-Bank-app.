@@ -7,6 +7,6 @@ namespace Lahiyye_bank_app_.Service.Interface
 {
     public interface IEmployeeService:IBankService<Employee>
     {
-        //
+        
     }
 }
