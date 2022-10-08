@@ -4,15 +4,15 @@ using System;
 
 namespace Lahiyye_bank_app_
 {
-    internal class Program
+    public class Bank
     {
 
         static void Main(string[] args)
         {
             EmployeeService employeeService = new EmployeeService();
             BranchService branchService = new BranchService();
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Welcome the Kapital Bank");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.WriteLine("     Welcome the Kapital Bank");
             //Models 
             Branch branch = new Branch();
             Employee employee = new Employee();
@@ -68,7 +68,7 @@ namespace Lahiyye_bank_app_
                                         goto Menu;
                                         break;
                                     case 6:
-                                        branchService.GetProfit(branch);
+                                        branchService.GetProfit();
                                         Console.ReadKey();
                                         goto Menu;
                                     case 7:

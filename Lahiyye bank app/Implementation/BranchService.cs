@@ -67,20 +67,24 @@ namespace Lahiyye_bank_app_.Implementation
         {
             foreach (Branch branch in _Bank.Datas.Where(d => d.SoftDelete == false))
             {
-                Console.WriteLine(branch.Name);
+                Console.WriteLine($"Name: {branch.Name} Address: {branch.Address} Budget{branch.Budget}");
             }
         }
 
 
-        public void GetProfit(Branch branch)
+        public void GetProfit()
         {
-            Console.Write("Calculate profit and loss:\n");
-            Console.Write("Input Cost Price: ");
-            Console.Write("Input Selling Price: ");
-            decimal sellprice = 0;
-            branch.Employees.ForEach(c => sellprice += c.Salary);
-            decimal getprofil = branch.Budget - sellprice;
-            Console.WriteLine($"Profit of the {branch.Name}  branch in {getprofil}");
+            Console.WriteLine("Enter branchName: ");
+            string branchName = Console.ReadLine();
+            Branch branch = _Bank.Datas.Find(g => g.Name == branchName);
+            decimal num = 0;
+            foreach (var employee in branch.Employees)
+            {
+                num += employee.Salary;
+            }
+            decimal profit = branch.Budget - num;
+            Console.WriteLine("Remaining budget: " + profit);
+
 
         }
         public void HireEmployee(Branch branch)
@@ -108,36 +112,31 @@ namespace Lahiyye_bank_app_.Implementation
         //we are transferring money to the employee
         public void TransferMoney()
         {
+
+            Branch branch = new Branch();
             Console.WriteLine("---Trasfer Money---");
             Console.Write("Please enter your Name: ");
             string yourname = Console.ReadLine();
             Console.Write("Please enter the Name of the person you would like to tranfer funds to: ");
             string name = Console.ReadLine();
             Console.Write("Enter the amount of funds you would like to transfer: ");
-            string amount = Console.ReadLine();
-            Branch branch = new Branch();
+            decimal amount = decimal.Parse(Console.ReadLine());
             foreach (Branch Transfer in _Bank.Datas)
             {
-                if (Transfer.Name == name)
+                if (Transfer.Name == yourname)
                 {
-                    Transfer.Budget -= branch.Budget;
-                    break;
+                    Transfer.Budget -= amount;
                 }
             }
             foreach (Branch Transfer in _Bank.Datas)
             {
                 if (Transfer.Name == name)
                 {
-                    branch.Budget += Transfer.Budget;
+                    Transfer.Budget += amount;
                     break;
                 }
             }
         }
-
-
-
-
-
         //we are changing the current names, budget, address
         public void Update()
         {
